@@ -55,7 +55,7 @@ def read():
     except Exception as inst:
         print("error: ", inst)
 
-
 while True:
     read()
+    print("sleep")
     time.sleep(2)
